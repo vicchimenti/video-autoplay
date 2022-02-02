@@ -1,0 +1,4 @@
+.videoBanner video {
+    width: 100vw;
+    height: calc(100vw/1.9);
+}
