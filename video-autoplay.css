@@ -1,4 +1,16 @@
-.videoBanner video {
+.embeddedVideoWrapper.vtzv {
+    margin-top: -3.5rem;
+}
+
+
+@media screen and (max-width: 991.98px) {
+
+    .embeddedVideoWrapper.vtzv {
+        margin-top: -0.95rem;
+    }
+}
+
+/* .videoBanner video {
     width: 100vw;
     height: calc(100vw/1.9);
-}
+} */
