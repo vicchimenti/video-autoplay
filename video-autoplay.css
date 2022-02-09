@@ -2,6 +2,23 @@
     margin-top: -3.5rem;
 }
 
+.vtzv iframe body.vp-center .player .vp-controls-wrapper button.play {
+    top: 95%;
+    left: 5%;
+}
+
+.player.no-playbar:not(.mobile):not(.player-outroVisible) .vp-controls .play {
+    top: 95%;
+    left: 5%;
+}
+
+@media screen and (min-width: 992px) {
+
+    .vtzv iframe body.vp-center .player .vp-controls-wrapper button.play {
+        top: 95%;
+        left: 5%;
+    }
+}
 
 @media screen and (max-width: 991.98px) {
 
@@ -14,3 +31,4 @@
     width: 100vw;
     height: calc(100vw/1.9);
 } */
+
